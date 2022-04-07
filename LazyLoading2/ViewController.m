@@ -21,6 +21,8 @@
 - (void)viewDidLoad {
     tableData = [[NSMutableArray alloc]init];
     
+    
+    
     //Adding Static Url to the Array
     NSString *path = [[NSBundle mainBundle] bundlePath];
     NSString *finalPath = [path stringByAppendingPathComponent:@"ImageURL.plist"];
